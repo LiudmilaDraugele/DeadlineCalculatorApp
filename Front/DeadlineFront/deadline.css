@@ -1,0 +1,40 @@
+div{
+    display: block;
+    border: solid;
+    border-color: rgb(69,123,157);
+    padding: 10px;
+    background-color: rgb(241,250,238);
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: rgb(29,53,87);
+}
+button{
+    color: rgb(168,218,220);
+    background-color: rgb(29,53,87);
+    font-size: larger;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+input{
+    background-color:  rgb(168,218,141);
+    color: rgb(0,20,39);
+    margin: 5px;
+}
+label{
+    color:rgb(29,53,87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.warning, #successInfo, #failureInfo {
+    color: rgb(230,57,70);
+    font-size: larger;
+    display: none;
+}
+tr{
+    color:rgb(29,53,87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}

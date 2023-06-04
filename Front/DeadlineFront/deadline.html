@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="deadline.css">
+    <script src="deadline.js" defer> </script>
+    
+    <title>Deadline Calculator by L.D.</title>
+</head>
+<body>
+    <div>
+        <h1 id="title">Deadline Calculator</h1>
+    </div>
+
+    <div id="planPage" class="optionaldiv">
+        <form action ="#" class="form" id="InitialForm"> 
+            <label for="taskNameInput">Name</label><input id="taskNameInput" type="text" class="input"/>
+            <label for="hoursNeededInput">Hours needed</label><input id="hoursNeededInput" type="text" class="input"/>
+            <label for="startDateInput">Start date</label><input id="startDateInput" type="date" class="input"/>
+            <label for="deadlineInput">Deadline</label><input id="deadlineInput" type="date" class="input"/>
+            <button id="calculateTimeframeBtn" class="btn">Get schedule</button>
+            <button id="resetBtn" class="btn">Reset</button>
+        </form>
+        <p id="hoursNeededWarning" class="warning">Please enter a valid number of hours!</p>
+        <p id="dateWarning" class="warning">Incorrect deadline date!</p>
+        <p id="dateWarning1" class="warning">Your deadline is before start date!</p>
+        <p id="dateWarning2" class="warning">Your deadline is same as start date!</p>
+        <p id="pastDateWarning" class="warning">Your deadline is in the past!</p>
+        <p id="startInPastDateWarning" class="warning">Your start date is in the past!</p>
+        <p id="hoursWarning" class="warning">Interval selected is too short!</p>
+        <p id="invalidDatesWarning" class="warning">Please select relevant dates!</p>
+        
+        <div id = "daysGrid">
+            <form action ="#" class="form" id="BusyHoursForm"></form>
+        </div>
+        <div id="successInfo" style="display: none;">Congratulations! You have enough time to complete the task.</div>
+        <div id="failureInfo" style="display: none;">Sorry, not enough time to complete the task in time! :(</div>
+
+        </form>
+        
+    </div>
+
+
+</body>
+</html>
