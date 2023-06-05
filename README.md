@@ -4,7 +4,7 @@ The Deadline Calculator is a tool designed to assist you in managing your tasks 
 
 To get started with the Deadline Calculator application, you'll need to run the backend and frontend separately.
 
-You can run the backend (server) by executing the JAR file located in the target directory. Open your terminal/command prompt, navigate to the target directory, and run the JAR file using the Java command:
+You can run the backend (server) by executing the JAR file located in the "back" directory. Open your terminal/command prompt, navigate to the "back" directory, and run the JAR file using the Java command:
 java -jar deadline-0.0.1-SNAPSHOT.jar
 
 To start the frontend, follow these steps:
